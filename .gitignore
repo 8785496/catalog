@@ -2,3 +2,6 @@
 /admin/config.php
 /.idea/
 /catalog.iml
+/system/storage/cache/*
+/system/storage/logs/*
+!index.html

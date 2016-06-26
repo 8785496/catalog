@@ -596,6 +596,7 @@ h2.price {
 }
 .product-thumb .price {
 	color: #444;
+	font-size: 28px;
 }
 .product-thumb .price-new {
 	font-weight: 600;
@@ -624,7 +625,7 @@ h2.price {
 	}
 }
 .product-thumb .button-group button {
-	width: 60%;
+	width: 100%;
 	border: none;
 	display: inline-block;
 	float: left;
@@ -647,12 +648,12 @@ h2.price {
 }
 @media (max-width: 1200px) {
 	.product-thumb .button-group button, .product-thumb .button-group button + button {
-		width: 33.33%;
+		width: 100%;
 	}
 }
 @media (max-width: 767px) {
 	.product-thumb .button-group button, .product-thumb .button-group button + button {
-		width: 33.33%;
+		width: 100%;
 	}
 }
 .thumbnails {

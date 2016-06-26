@@ -75,14 +75,19 @@
 </script>
 <script>
   var img = document.createElement('img');
-  img.setAttribute('src', '//handmug.ru/counter?uri=' + encodeURIComponent(window.location.href));
-  img.setAttribute('style', 'position:absolute;top:-100px;left:-100px');
-  document.body.appendChild(img);
+  img.setAttribute('src', '<?php echo COUNTER_URI ?>' + encodeURIComponent(window.location.href));
+  //img.setAttribute('style', 'position:absolute;top:-100px;left:-100px');
+  //document.body.appendChild(img);
 </script>
 <nav id="top">
   <div class="container">
     <?php echo $currency; ?>
     <?php echo $language; ?>
+    <div id="top-links" class="nav pull-left">
+      <ul class="list-inline">
+        <li><i class="fa fa-map-marker"></i> <span class=""> Кемерово, Новосибирск</span></li>
+      </ul>
+    </div>
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
         <li><i class="fa fa-whatsapp"></i> <span class=""><?php echo $telephone; ?></span></li>
