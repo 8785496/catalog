@@ -1,25 +1,26 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://catalog.handmug.ru/admin/');
-define('HTTP_CATALOG', 'http://catalog.handmug.ru/');
+define('HTTP_SERVER', 'http://127.0.0.1:8000/admin/');
+define('HTTP_CATALOG', 'http://127.0.0.1:8000/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://catalog.handmug.ru/admin/');
-define('HTTPS_CATALOG', 'http://catalog.handmug.ru/');
+define('HTTPS_SERVER', 'http://127.0.0.1:8000/admin/');
+define('HTTPS_CATALOG', 'http://127.0.0.1:8000/');
 
 // DIR
-define('DIR_APPLICATION', '/var/www/catalog/admin/');
-define('DIR_SYSTEM', '/var/www/catalog/system/');
-define('DIR_IMAGE', '/var/www/catalog/image/');
-define('DIR_LANGUAGE', '/var/www/catalog/admin/language/');
-define('DIR_TEMPLATE', '/var/www/catalog/admin/view/template/');
-define('DIR_CONFIG', '/var/www/catalog/system/config/');
-define('DIR_CACHE', '/var/www/catalog/system/storage/cache/');
-define('DIR_DOWNLOAD', '/var/www/catalog/system/storage/download/');
-define('DIR_LOGS', '/var/www/catalog/system/storage/logs/');
-define('DIR_MODIFICATION', '/var/www/catalog/system/storage/modification/');
-define('DIR_UPLOAD', '/var/www/catalog/system/storage/upload/');
-define('DIR_CATALOG', '/var/www/catalog/catalog/');
+define('DIR_SITE', '/home/user/Desktop/catalog/');
+define('DIR_APPLICATION', DIR_SITE . 'admin/');
+define('DIR_SYSTEM', DIR_SITE . 'system/');
+define('DIR_IMAGE', DIR_SITE . 'image/');
+define('DIR_LANGUAGE', DIR_SITE . 'admin/language/');
+define('DIR_TEMPLATE', DIR_SITE . 'admin/view/template/');
+define('DIR_CONFIG', DIR_SITE . 'system/config/');
+define('DIR_CACHE', DIR_SITE . 'system/storage/cache/');
+define('DIR_DOWNLOAD', DIR_SITE . 'system/storage/download/');
+define('DIR_LOGS', DIR_SITE . 'system/storage/logs/');
+define('DIR_MODIFICATION', DIR_SITE . 'system/storage/modification/');
+define('DIR_UPLOAD', DIR_SITE . 'system/storage/upload/');
+define('DIR_CATALOG', DIR_SITE . 'catalog/');
 
 // DB
 define('DB_DRIVER', 'mpdo');
